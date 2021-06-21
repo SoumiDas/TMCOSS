@@ -191,18 +191,18 @@ def main():
 	inlist = []
 
 	for i in nbrs:
-		exlist.append('../../../../bddreduce100k/images/train/'+i.strip())
+		exlist.append('./exs/'+i.strip())
 
 	exlist = sorted(exlist)
 	exlist = exlist[:500]
 
 	#os.mkdir('../../../../bddsub100k/images/tcl/train/')
 
-	newPath = '../../../../bddsub100k/images/tcl/train/'
+	newPath = 'np/'
 
 	with open('./set1.txt','r') as fp1:
 		for line in fp1:
-			inlist.append('../../../../'+line.strip())
+			inlist.append('../'+line.strip())
 
 	inlist = sorted(inlist)
 

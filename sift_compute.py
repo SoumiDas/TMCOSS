@@ -144,7 +144,7 @@ def main():
 	inlist = []
 
 	for i in nbrs:
-		exlist.append('../../../bddreduce100k/images/train/'+i.strip())
+		exlist.append('./exs/'+i.strip())
 	#print("Loaded")
 	exlist = sorted(exlist)
 	exlist = exlist[:500] #Existing Set - take a max of 500, append paths
