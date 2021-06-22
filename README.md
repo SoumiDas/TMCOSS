@@ -7,7 +7,7 @@
 # Prerequisites
 
 * Python, NumPy, cvxpy, PyTorch, scikit-learn, Matplotlib
-* Dataset and its corresponding model
+* Data and its corresponding model
 
 # Steps to execute the algorithm
 
