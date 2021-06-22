@@ -9,7 +9,7 @@
 * Python, NumPy, cvxpy, PyTorch, scikit-learn, Matplotlib
 * Data and its corresponding model
 
-# Steps to execute the algorithm
+# Usage
 
 1. Divide your data into existing and incoming sets.
 2. Train your target model on the current existing set and find the loss values on the entire training data.
