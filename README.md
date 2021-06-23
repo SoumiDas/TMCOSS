@@ -6,7 +6,7 @@
 
 # Prerequisites
 
-* Python, NumPy, cvxpy, PyTorch, scikit-learn, Matplotlib
+* Python, NumPy, OpenCV, cvxpy, PyTorch, scikit-learn, Matplotlib
 * Data and its corresponding model
 
 # Usage
