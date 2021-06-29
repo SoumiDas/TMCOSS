@@ -67,10 +67,7 @@ def optprob(exlist,Bfiles,fl,newPath,siftdic,lossdict,lossdict1,lossdict2,lossdi
 		
 		D1=np.zeros((len(B1),len(exlist)))
 		D2=np.zeros((len(B1),len(B1)))
-		D3=np.zeros((len(B1),len(exlist)))
-		D4=np.zeros((len(B1),len(B1)))
 	
-		
 		for f in range(0,len(exlist)):
 
 			for f1 in range(0,len(B1)):
