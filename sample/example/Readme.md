@@ -1,1 +1,1 @@
-Download the simlarity values from 
+Download the similarity values from 
