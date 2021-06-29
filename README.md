@@ -22,7 +22,7 @@
 9. Now, you can train the model using the subset and obtain the performance metrics.
 
 # Sample run
-One can run ```python sample_subset.py``` on the sample data and obtain the subset. 
+One can run ```python sample_subset.py``` from the directory sample/ on the sample data and obtain the subset. 
 
 Pre-given: 
 
