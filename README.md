@@ -19,7 +19,7 @@
 6. Subset finding using similarity value pairs and loss values of the current existing and incoming set.(```subset_find.py```)
 7. The obtained subset becomes the current existing set for the next round.
 8. Steps 2-7 are to be repeated till the subset is found on the entire dataset.
-9. Now, you can train the model using the subset and obtain the performance metrics.
+9. Now, you can train your target model using the subset and obtain the performance metrics.
 
 # Sample run
 One can run ```python sample_subset.py``` from the directory sample/ on the sample data and obtain the subset. 
