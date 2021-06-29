@@ -196,9 +196,8 @@ def main():
 	exlist = sorted(exlist)
 	exlist = exlist[:500]
 
-	#os.mkdir('../../../../bddsub100k/images/tcl/train/')
-
-	newPath = 'np/'
+	os.mkdir('./newset/')
+	newPath = 'newset/'
 
 	with open('./set1.txt','r') as fp1:
 		for line in fp1:
@@ -209,7 +208,7 @@ def main():
 	for group in range(0,len(inlist),1000):
 		inlistg = inlist[group:group+1000]
 
-		siftName='../../sift_compute/siftval_s1_'+str(group)
+		siftName='../sift_compute/siftval_s1_'+str(group)
 
 		if os.path.exists(siftName):
 			with open(siftName, 'rb') as handle:
