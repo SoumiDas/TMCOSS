@@ -26,7 +26,7 @@ One can run ```python sample_subset.py``` on the sample dataset and obtain the s
 
 Pre-given: 
 
-1. Sample dataset
+1. Sample data
 2. The loss values obtained using the driving model.
 3. Neighbour files from existing set.
 4. Similarity values for the sample data.
