@@ -20,3 +20,12 @@
 7. The obtained subset becomes the current existing set for the next round.
 8. Steps 2-7 are to be repeated till the subset is found on the entire dataset.
 9. Now, you can train the model using the subset and obtain the performance metrics.
+
+# Sample
+One can run ```python sample_subset.py``` on the sample dataset and obtain the subset. 
+
+Pre-given: 
+
+1. The loss values obtained using the model.
+2. Neighbour files from existing set.
+3. Similarity values for the sample data.
