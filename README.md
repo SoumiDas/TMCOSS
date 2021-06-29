@@ -29,4 +29,4 @@ Pre-given:
 1. Sample data
 2. The loss values obtained using the driving model.
 3. Neighbour files from existing set.
-4. Similarity values for the sample data.
+4. Similarity values for the sample data ([to be downloaded](https://drive.google.com/file/d/1LgC6UAiz4-farfRI9mqP9D6ibPqByrDy/view?usp=sharing)).
