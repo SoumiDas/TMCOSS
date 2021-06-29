@@ -150,14 +150,15 @@ def main():
 	exlist = exlist[:500] #Existing Set - take a max of 500, append paths
 	with open('./set1.txt','r') as fp1:
 		for line in fp1:
-			inlist.append('../../../'+line.strip())
+			inlist.append('../'+line.strip())
 
 	inlist = sorted(inlist)
-	#for group in range(0,len(inlist),1000):
+	os.mkdir('../sift_compute')
 	for group in range(0,4000,1000): #Incoming set compute in batches
 		inlistg = inlist[group:group+1000]
 
-		siftName='siftval_s1_'+str(group)
+		#Create a directory ../siftcompute
+		siftName='../sift_compute/siftval_s1_'+str(group)
 
 		if os.path.exists(siftName):
 			with open(siftName, 'rb') as handle:

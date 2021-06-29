@@ -111,7 +111,7 @@ dict = {}
 start = time.time()
 
 #Example of a line from exist.txt
-#bddreduce100k/images/train/fe172415-3c36f3d1.jpg
+#data/images/train/abc.jpg
 with open('exist.txt','r') as fp:
     for line in fp:
         pathimg = line
@@ -138,4 +138,4 @@ print(time.time() - start)
 with open('dict_index_exist_10k.json','w') as fp:
 	json.dump(dict,fp)
 
-#dict['00067cfb-5adfaaa7.jpg']=1 numbering the image for post usage
+#dict['abc.jpg']=1 numbering the image for post usage
