@@ -1,4 +1,5 @@
 # Thresholded Multi-Criteria Online Subset Selection
+This is the code for the paper accepted at ICCV 2021!
 
 *Paper*: TMCOSS: Thresholded Multi-Criteria Online Subset Selection for Data-Efficient Autonomous Driving
 
