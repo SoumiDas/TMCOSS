@@ -7,7 +7,7 @@ This is the code for the paper accepted at ICCV 2021!
 
 # Prerequisites
 
-* Python, NumPy, OpenCV, cvxpy, PyTorch, scikit-learn, Matplotlib
+* Python, NumPy, OpenCV, cvxpy, faiss, PyTorch, scikit-learn, Matplotlib
 * Data and its corresponding model
 
 # Usage
